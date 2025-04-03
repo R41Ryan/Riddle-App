@@ -1,0 +1,11 @@
+{
+  "name": "riddle-app",
+  "version": "1.0.0",
+  "description": "An app that will display a random riddle, which the user can contemplate before revealing the answer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
