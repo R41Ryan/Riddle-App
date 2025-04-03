@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Huynh - Riddle Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <% let showAnswer = false; %>
+    <header>
+      <h1>Riddle Web App</h1>
+      <p>
+        <a href="https://riddles-api.vercel.app/" target="_blank">
+          Uses Riddle API by Nikhil Mohite
+        </a>
+      </p>
+    </header>
+    <main>
+      <h2><%= riddle %></h2>
+      <h3 id="riddleAnswer" class="hidden"><%= answer %></h3>
+    </main>
+    <button onclick="handleClick()">Click me to reveal the answer!</button>
+    <footer>
+      <p>
+        Made by
+        <a href="https://github.com/R41Ryan" target="_blank">Ryan Huynh</a>
+      </p>
+    </footer>
+    <script>
+      function handleClick() {
+        document.querySelector("#riddleAnswer").classList.remove("hidden");
+      }
+    </script>
+  </body>
+</html>

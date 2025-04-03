@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An app that will display a random riddle, which the user can contemplate before revealing the answer.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.8.4",
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
 }
